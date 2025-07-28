@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">   
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="search.png" alt="Search"></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name. Please try again.</p>
+        </div>
+        <div class="weather">
+            <img src="rain.png" class="weather-icon" alt="Weather Icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="humidity.png" alt="Humidity">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="wind.png" alt="Wind Speed">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="snow.png" alt="Snow">
+                    <div>
+                        <p class="snow">0 cm</p>
+                        <p>Snowfall</p>
+                    </div>
+                </div>
+            </div>
+            <div class="forecast">
+                <h3>3-Day Forecast:</h3>
+                <div class="forecast-wrapper">
+                    <div class="forecast-row" id="forecast-top"></div>
+                    <div class="forecast-row" id="forecast-bottom"></div>
+                </div>
+            </div>
+        </div>
+        <div class="loading">
+            <div class="spinner"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
