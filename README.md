@@ -3,7 +3,7 @@
 A modern and responsive **Weather Checker App** built with **HTML, CSS, and JavaScript**, powered by the **OpenWeather API**.
 Easily search for any city worldwide and instantly view **real-time weather details** including temperature, humidity, wind speed, and snowfall — all with dynamic weather icons and smooth UI effects.
 
-![Weather Website Preview](https://weather-website.anubhav.sbs/image/weather.png)
+![Weather Website Preview](https://weather-website.anubhav.sbs/image/weatherimg.png)
 
 ### 🌐 Live Demo
 👉 [Visit Website](https://weather-website.anubhav.sbs/)
