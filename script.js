@@ -22,7 +22,7 @@ async function fetchWeather(city) {
             throw new Error('City not found');
         }
 
-        // Weather details
+  
         document.querySelector(".city").textContent = data.location.name;
         document.querySelector(".temp").textContent = `${Math.round(data.current.temp_c)}°C`;
         document.querySelector(".humidity").textContent = `${data.current.humidity}%`;
